@@ -1,0 +1,53 @@
+:root{
+    --primary: #ddd;
+    --dark: rgb(19, 9, 9);
+    --dark-one: rgb(43, 27, 27);
+    --light: #fff;
+    --purple: #5D3FD3;
+    --red: #de3e62;
+    --blue: #27a9ff;
+    --dark-blue: #367bb6;
+    --shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+html{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+body li{
+    list-style-type: none;
+}
+body a {
+    text-decoration: none;
+    color: var(--blue);
+    border: 1px solid var(--blue);
+    border-radius: 5px;
+    padding: 0.5rem;
+    text-align: center;
+    box-shadow: var(--shadow);
+}
+body a:hover{
+    color: white;
+    background: var(--blue);
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.counter-main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.counter-main h2{
+    margin: 0;
+}
+.counter-main p{
+    font-size: 4rem;
+    margin: 0.5rem;
+}
